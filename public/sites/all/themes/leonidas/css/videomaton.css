@@ -1,0 +1,92 @@
+/* Start: Recommended Isotope styles */
+.playaffiche { /*background: url("../images/btn-play.png") no-repeat scroll 0 0 transparent;*/ background: url("../images/spritesheet.png") no-repeat transparent; background-position: -28px -1px; height: 45px; left: 50%; margin: -23px 0 0 -23px; overflow: hidden; position: absolute; text-indent: -9999px; top: 45%; width: 46px; }
+.avignonoff { display: block; width: 220px; height: 290px; background-color: #262626; margin-top: -16px; }
+.avignonoff img { padding: 2px; margin-bottom: -6px; }
+a.extoff { color: #FFFFFF; display: block; font: bold 13px/16px Arial, FreeSans, Helvetica, sans-serif; margin-left: 2px; }
+a.ensavoirplus { color: #007FAF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 13px; margin-left: 2px; }
+/**** Isotope Filtering ****/
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+/**** Isotope CSS3 transitions ****/
+.isotope, .isotope .isotope-item { -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s; -ms-transition-duration: 0.8s; -o-transition-duration: 0.8s; transition-duration: 0.8s; }
+.isotope { -webkit-transition-property: height, width; -moz-transition-property: height, width; -ms-transition-property: height, width; -o-transition-property: height, width; transition-property: height, width; }
+.isotope .isotope-item { -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property: -moz-transform, opacity; -ms-transition-property: -ms-transform, opacity; -o-transition-property: -o-transform, opacity; transition-property: transform, opacity; }
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition { -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -ms-transition-duration: 0s; -o-transition-duration: 0s; transition-duration: 0s; }
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling { -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; transition: none; }
+section { display: block; }
+/**** Isotope styles ****/
+/* required for containers to inherit vertical size from window */
+html, body { height: 100%; }
+#container { width: 660px; padding-bottom: 8px; background-color: #262626; margin-top: 2px; }
+.element { width: 110px; height: 110px; margin: 5px; float: left; overflow: hidden; position: relative; background: #888; color: #222; -webkit-border-top-right-radius: 1.2em; -moz-border-radius-topright: 1.2em; border-top-right-radius: 1.2em; }
+.element.alkali { background: #F00; background: hsl(   0, 100%, 50%); }
+.element.alkaline-earth { background: #F80; background: hsl(  36, 100%, 50%); }
+.element.lanthanoid { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element.actinoid { background: #0F0; background: hsl( 108, 100%, 50%); }
+.element.transition { background: #0F8; background: hsl( 144, 100%, 50%); }
+.element.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.element.metalloid { background: #08F; background: hsl( 216, 100%, 50%); }
+.element.other.nonmetal { background: #00F; background: hsl( 252, 100%, 50%); }
+.element.halogen { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element.noble-gas { background: #F08; background: hsl( 324, 100%, 50%); }
+.element * { position: absolute; margin: 0; }
+.element .symbol { left: 0.2em; top: 0.4em; font-size: 3.8em; line-height: 1.0em; color: #FFF; }
+.element.large .symbol { font-size: 4.5em; }
+.element.fake .symbol { color: #000; }
+.element .name { left: 0.5em; bottom: 1.6em; font-size: 1.05em; }
+.element .weight { font-size: 0.9em; left: 0.5em; bottom: 0.5em; }
+.element .number { font-size: 1.25em; font-weight: bold; color: hsla(0,0%,0%,.5); right: 0.5em; top: 0.5em; }
+.variable-sizes .element.width2 { width: 230px; }
+.variable-sizes .element.height2 { height: 230px; }
+.variable-sizes .element.width2.height2 { font-size: 2.0em; }
+.element.large, .variable-sizes .element.large, .variable-sizes .element.large.width2.height2 { font-size: 3.0em; width: 350px; height: 350px; z-index: 100; }
+.clickable .element:hover { cursor: pointer; }
+.clickable .element:hover h3 { text-shadow: 0 0 10px white,  0 0 10px white; }
+.clickable .element:hover h2 { color: white; }
+/**** Example Options ****/
+#options { width: 660px; }
+#options ul { margin: 0; list-style: none; }
+#options li { float: left; }
+#options li a { display: block; width: 68px; height: 68px; background-image: url(../images/sprite-videomaton.png); }
+li.ctous a { background-position: -612px 0; }
+li.cjeune a { background-position: 0 0; }
+li.ctout a { background-position: -68px 0; }
+li.cadulte a { background-position: -136px 0; }
+li.ctheatre a { background-position: -204px 0; }
+li.cconcert a { background-position: -272px 0; }
+li.cdanse a { background-position: -340px 0; }
+li.ccirque a { background-position: -408px 0; }
+li.clecture a { background-position: -476px 0; }
+li.cmime a { background-position: -544px 0; }
+li.ctous a:hover { background-position: -612px -136px; }
+li.cjeune a:hover { background-position: 0 -136px; }
+li.ctout a:hover { background-position: -68px -136px; }
+li.cadulte a:hover { background-position: -136px -136px; }
+li.ctheatre a:hover { background-position: -204px -136px; }
+li.cconcert a:hover { background-position: -272px -136px; }
+li.cdanse a:hover { background-position: -340px -136px; }
+li.ccirque a:hover { background-position: -408px -136px; }
+li.clecture a:hover { background-position: -476px -136px; }
+li.cmime a:hover { background-position: -544px -136px; }
+li.ctous a.selected { background-position: -612px -136px; }
+li.cjeune a.selected { background-position: 0 -68px; }
+li.ctout a.selected { background-position: -68px -68px; }
+li.cadulte a.selected { background-position: -136px -68px; }
+li.ctheatre a.selected { background-position: -204px -68px; }
+li.cconcert a.selected { background-position: -272px -68px; }
+li.cdanse a.selected { background-position: -340px -68px; }
+li.ccirque a.selected { background-position: -408px -68px; }
+li.clecture a.selected { background-position: -476px -68px; }
+li.cmime a.selected { background-position: -544px -68px; }
+/* Combination filter options*/
+#options .option-combo { display: inline-block; float: left; width: 100%; height: 68px; background-color: #262626; }
+#options .option-combo ul { display: inline-block; margin-left: -40px; }
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.page-node-139507 #content,
+.page-node-159467 #content{ width: 660px; }

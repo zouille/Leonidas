@@ -1,0 +1,9 @@
+name = leonidas
+description = theme custom pour leonidas
+core = 7.x
+engine = phptemplate
+
+scripts[] = js/scripts.js
+
+plugins[panels][layouts] = layouts
+stylesheets[all][] = css/style.css

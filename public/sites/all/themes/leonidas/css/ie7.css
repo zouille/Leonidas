@@ -1,0 +1,3 @@
+.calendar-list li a .txt { position: relative; }
+.calendar-list > li a .txt { top: 5px; }
+.calendar-list > li + li a .txt { top: 10px; }

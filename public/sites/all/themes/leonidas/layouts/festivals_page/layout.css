@@ -1,0 +1,43 @@
+#panel-region-middle_festivals_left {
+  float: left;
+  width: 48%;
+}
+
+#panel-region-middle_festivals_sidebar {
+  float: right;
+  width: 49%;
+}
+#panel-region-bottom_left {
+    float: left;
+    width: 48%;
+}
+
+#panel-region-bottom_sidebar {
+    float: right;
+    width: 49%;
+}
+
+#panel-region-bottom_festivals {
+
+}
+
+
+.panel-region {
+  border: 2px gray solid;
+  margin: 3px 3px 3px 3px;
+}
+
+.site_content {
+  width: 66%;
+  float: left;
+}
+
+.site_side {
+  width: 33%;
+  float: right;
+}
+
+#edit-buttons {
+  clear: both;
+  margin-top: 10px;
+}
