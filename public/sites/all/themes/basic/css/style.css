@@ -351,4 +351,8 @@ body:before {
   }
 }
 
+/*Produits page*/
+.field-items .field-item.even img{ width: 40%; height: 40%;}
+
+
 /*# sourceMappingURL=style.css.map */
